@@ -23,7 +23,7 @@ var callback = function(mutationsList, observer) {
             var messages = addedNodes.map(messageNodeExtractor);
             var filteredMessages = messages.filter(emptyMessageFilter);
             if(filteredMessages.length){
-              console.log('Filtered User Name', filteredMessages);  
+              console.log('Hijacked Username', filteredMessages);  
             }
         }
         else if (mutation.type === 'attributes') {
